@@ -8,6 +8,13 @@ import { actionCreator } from "../actionsCreator/index";
  * =================================================================
  * USAGE
  * dispatch(newSetCurrentUser(userData))
+ * 
+ * 
+ * OR
+ * 
+ * 
+ * dispatch(actionCreator( userActionTypes.SET_CURRENT_USER,
+  "user"))
  * ==================================================================
  */
 
