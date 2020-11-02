@@ -4,7 +4,7 @@
 
 # React Redux Boilerplate
 
-Opinionated React starter template using Redux, React Router Dom, Redux Thunk, Axios and more.
+Opinionated React starter boilerpate + authentication, with using Redux, React Router Dom, Redux Thunk, Axios and more.
 
 ## Dependencies
 
@@ -58,20 +58,20 @@ npm run build
 
 1.  Folder structure:
 
-    -   `assets/` - all fonts, images, videos, etc.
-    -   `components/` - stateless components.
-    -   `helpers/` - helpers and utility functions
-    -   `routes/`  - all routes
-    -   `pages/`   - all pages
-    -   `store/` - reducer, actions, operations, selectors, types, store, root reducers  and local storage
-    -  
+    - `assets/` - all fonts, images, videos, etc.
+    - `components/` - stateless components.
+    - `helpers/` - helpers and utility functions
+    - `routes/` - all routes
+    - `pages/` - all pages
+    - `store/` - reducer, actions, operations, selectors, types, store, root reducers and local storage
+    -
 
 2.  Latest EcmaScript support
 
-    -   Usage of the latest features in EcmaScript
-    -   Using [Babel](https://github.com/babel/babel) to transpile to ES5
-    -   Minification of the bundled file
-    -   Source maps
+    - Usage of the latest features in EcmaScript
+    - Using [Babel](https://github.com/babel/babel) to transpile to ES5
+    - Minification of the bundled file
+    - Source maps
 
 3.  Webpack aliases: Checkout the aliases property in the `webpack.config.js` file.
 4.  Choose your style: Freedom to plug in any styling of your choice.
@@ -80,7 +80,7 @@ npm run build
 7.  Offline first - using Offline Plugin to cache important files and assets
 8.  PWA ready - Install as a native app on Android and iOS
 9.  Report Web Vitals - Send any of results to an analytics endpoint to measure and track real user performance on your site.
-10.  Code splitting and lazy loading
+10. Code splitting and lazy loading
 
 ## Supported Browsers
 
@@ -90,7 +90,7 @@ The default list of supported browsers is listed in the `package.json` file:
 
 ```json
 {
-	"browserslist": ["> 0.2%", "last version"]
+  "browserslist": ["> 0.2%", "last version"]
 }
 ```
 
