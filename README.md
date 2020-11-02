@@ -4,7 +4,8 @@
 
 # React Redux Boilerplate
 
-Opinionated React starter template using Redux, React Router Dom, Redux Thunk, Axios and more.
+Opinionated React boilerplate + authentication using Redux, React Router Dom, Redux Thunk, Axios, and more.
+
 
 ## Dependencies
 
