@@ -1,4 +1,20 @@
-import userActionTypes from '../types/user.types';
+import userActionTypes from "../types/user.types";
+import { actionCreator } from "../actionsCreator/index";
+
+/**
+ *
+ * @param actionCreator - declare a variable and assign the function to it with the action type and payload
+ * wrap it into the dispatch higher order function to invoke it.
+ * =================================================================
+ * USAGE
+ * dispatch(newSetCurrentUser(userData))
+ * ==================================================================
+ */
+
+export const newSetCurrentUser = actionCreator(
+  userActionTypes.SET_CURRENT_USER,
+  "user"
+);
 
 export const setCurrentUser = (user) => ({
   type: userActionTypes.SET_CURRENT_USER,
