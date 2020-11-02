@@ -7,6 +7,11 @@ import { actionCreator } from "../actionsCreator/index";
  * wrap it into the dispatch higher order function to invoke it.
  * =================================================================
  * USAGE
+ * 
+ * export const newSetCurrentUser = actionCreator(
+  userActionTypes.SET_CURRENT_USER,
+  "user"
+);
  * dispatch(newSetCurrentUser(userData))
  * 
  * 
