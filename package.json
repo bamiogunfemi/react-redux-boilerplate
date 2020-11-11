@@ -1,18 +1,20 @@
 {
   "name": "@bamiogunfemi/react-redux-thunk-boilerplate",
-  "version": "0.1.0",
-  "description": "Opinionated React starter boilerpate + authentication, with using Redux, React Router Dom, Redux Thunk, Axios and more.",
+  "version": "0.1.1",
+  "description": "Opinionated React starter boilerpate + authentication, with using Redux, Redux Thunk, Axios and more.",
   "author": "Bami Ogunfemi <ayobamiarafat09@gmail.com> (https://bamiogunfemi.codes/)",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
-    "react"
+    "react", 
+    "redux",
+    "thunk"
   ],
   "license": "MIT",
   "homepage": "https://github.com/bamiogunfemi/react-redux-boilerplate/",
   "bugs": "https://github.com/bamiogunfemi/react-redux-boilerplate/issues",
   "repository": {
-    "type": "git",
-    "url": "https://bamiogunfemi/react-redux-boilerplate.git",
+    "type": "github",
+    "url": "git+https://github.com/bamiogunfemi/react-redux-boilerplate.git",
     "directory": "packages/react-redux-boilerplate"
   },
   "dependencies": {
